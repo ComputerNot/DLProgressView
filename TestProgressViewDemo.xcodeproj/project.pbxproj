@@ -35,9 +35,9 @@
 		5219B2FE1DB8CC070025E5F9 /* 17.png in Resources */ = {isa = PBXBuildFile; fileRef = 5219B2EA1DB8CC070025E5F9 /* 17.png */; };
 		5219B2FF1DB8CC070025E5F9 /* 18.png in Resources */ = {isa = PBXBuildFile; fileRef = 5219B2EB1DB8CC070025E5F9 /* 18.png */; };
 		5219B3001DB8CC070025E5F9 /* 19.png in Resources */ = {isa = PBXBuildFile; fileRef = 5219B2EC1DB8CC070025E5F9 /* 19.png */; };
-		52854C8E1DB8F76700BD5E2A /* DLProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52854C891DB8F76700BD5E2A /* DLProgressView.m */; };
-		52854C8F1DB8F76700BD5E2A /* loadinggif4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 52854C8A1DB8F76700BD5E2A /* loadinggif4.gif */; };
-		52854C901DB8F76700BD5E2A /* UIImage+JHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 52854C8C1DB8F76700BD5E2A /* UIImage+JHUD.m */; };
+		527590511DBF3556002414F1 /* DLProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5275904D1DBF3556002414F1 /* DLProgressView.m */; };
+		527590521DBF3556002414F1 /* loadinggif4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5275904E1DBF3556002414F1 /* loadinggif4.gif */; };
+		527590531DBF3556002414F1 /* UIImage+JHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 527590501DBF3556002414F1 /* UIImage+JHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,11 +94,11 @@
 		5219B2EA1DB8CC070025E5F9 /* 17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 17.png; sourceTree = "<group>"; };
 		5219B2EB1DB8CC070025E5F9 /* 18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 18.png; sourceTree = "<group>"; };
 		5219B2EC1DB8CC070025E5F9 /* 19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 19.png; sourceTree = "<group>"; };
-		52854C881DB8F76700BD5E2A /* DLProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLProgressView.h; sourceTree = "<group>"; };
-		52854C891DB8F76700BD5E2A /* DLProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLProgressView.m; sourceTree = "<group>"; };
-		52854C8A1DB8F76700BD5E2A /* loadinggif4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loadinggif4.gif; sourceTree = "<group>"; };
-		52854C8B1DB8F76700BD5E2A /* UIImage+JHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JHUD.h"; sourceTree = "<group>"; };
-		52854C8C1DB8F76700BD5E2A /* UIImage+JHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JHUD.m"; sourceTree = "<group>"; };
+		5275904C1DBF3556002414F1 /* DLProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLProgressView.h; sourceTree = "<group>"; };
+		5275904D1DBF3556002414F1 /* DLProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLProgressView.m; sourceTree = "<group>"; };
+		5275904E1DBF3556002414F1 /* loadinggif4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loadinggif4.gif; sourceTree = "<group>"; };
+		5275904F1DBF3556002414F1 /* UIImage+JHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JHUD.h"; sourceTree = "<group>"; };
+		527590501DBF3556002414F1 /* UIImage+JHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JHUD.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +129,7 @@
 		5219B2691DB8BBCA0025E5F9 = {
 			isa = PBXGroup;
 			children = (
+				5275904B1DBF3556002414F1 /* DLProgressView */,
 				5219B2741DB8BBCA0025E5F9 /* TestProgressMeTwo */,
 				5219B28E1DB8BBCA0025E5F9 /* TestProgressMeTwoTests */,
 				5219B2991DB8BBCA0025E5F9 /* TestProgressMeTwoUITests */,
@@ -149,7 +150,6 @@
 		5219B2741DB8BBCA0025E5F9 /* TestProgressMeTwo */ = {
 			isa = PBXGroup;
 			children = (
-				52854C861DB8F76700BD5E2A /* DLProgressView */,
 				5219B2D91DB8CC070025E5F9 /* 0.png */,
 				5219B2DA1DB8CC070025E5F9 /* 1.png */,
 				5219B2DB1DB8CC070025E5F9 /* 2.png */,
@@ -209,14 +209,14 @@
 			path = TestProgressMeTwoUITests;
 			sourceTree = "<group>";
 		};
-		52854C861DB8F76700BD5E2A /* DLProgressView */ = {
+		5275904B1DBF3556002414F1 /* DLProgressView */ = {
 			isa = PBXGroup;
 			children = (
-				52854C881DB8F76700BD5E2A /* DLProgressView.h */,
-				52854C891DB8F76700BD5E2A /* DLProgressView.m */,
-				52854C8A1DB8F76700BD5E2A /* loadinggif4.gif */,
-				52854C8B1DB8F76700BD5E2A /* UIImage+JHUD.h */,
-				52854C8C1DB8F76700BD5E2A /* UIImage+JHUD.m */,
+				5275904C1DBF3556002414F1 /* DLProgressView.h */,
+				5275904D1DBF3556002414F1 /* DLProgressView.m */,
+				5275904E1DBF3556002414F1 /* loadinggif4.gif */,
+				5275904F1DBF3556002414F1 /* UIImage+JHUD.h */,
+				527590501DBF3556002414F1 /* UIImage+JHUD.m */,
 			);
 			path = DLProgressView;
 			sourceTree = "<group>";
@@ -341,7 +341,7 @@
 				5219B2EF1DB8CC070025E5F9 /* 2.png in Resources */,
 				5219B2F01DB8CC070025E5F9 /* 3.png in Resources */,
 				5219B2821DB8BBCA0025E5F9 /* Assets.xcassets in Resources */,
-				52854C8F1DB8F76700BD5E2A /* loadinggif4.gif in Resources */,
+				527590521DBF3556002414F1 /* loadinggif4.gif in Resources */,
 				5219B3001DB8CC070025E5F9 /* 19.png in Resources */,
 				5219B2FD1DB8CC070025E5F9 /* 16.png in Resources */,
 				5219B2F91DB8CC070025E5F9 /* 12.png in Resources */,
@@ -380,9 +380,9 @@
 			files = (
 				5219B27D1DB8BBCA0025E5F9 /* ViewController.m in Sources */,
 				5219B27A1DB8BBCA0025E5F9 /* AppDelegate.m in Sources */,
-				52854C901DB8F76700BD5E2A /* UIImage+JHUD.m in Sources */,
+				527590531DBF3556002414F1 /* UIImage+JHUD.m in Sources */,
 				5219B2771DB8BBCA0025E5F9 /* main.m in Sources */,
-				52854C8E1DB8F76700BD5E2A /* DLProgressView.m in Sources */,
+				527590511DBF3556002414F1 /* DLProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
