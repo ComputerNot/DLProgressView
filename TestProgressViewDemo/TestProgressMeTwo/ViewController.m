@@ -20,9 +20,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    _progressView = [DLProgressView addToView:self.view alertText:@"麻辣隔壁" animationType:HudAnimationTypeImageSpin];
-    [self testTwo];
-//    [self testThree];
+    _progressView = [DLProgressView addToView:self.view alertText:@"麻辣隔壁" animationType:HudAnimationTypeImageSwitch];
+//    [self testTwo];
+    [self testThree];
     [self performSelector:@selector(hiddenProgress) withObject:nil afterDelay:70];
 }
 

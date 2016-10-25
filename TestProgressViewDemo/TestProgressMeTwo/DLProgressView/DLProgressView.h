@@ -21,6 +21,7 @@ typedef NS_ENUM(NSInteger, HudAnimationType){
 @property (nonatomic) HudAnimationType animationType;
 @property (strong, nonatomic) UIImage *spinImage;
 @property (strong, nonatomic) NSArray *switchImages;
+@property (copy, nonatomic) NSString *gifName;
 
 - (void)show;
 - (void)hide;
